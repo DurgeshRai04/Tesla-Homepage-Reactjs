@@ -17,14 +17,14 @@
 }
 
 .item__text {
-  margin-top: 15vh;
+  margin-top: 20%;
   display: flex;
   flex: 1;
   flex-direction: column;
   align-items: center;
-  font-size: 36px;
+  font-size: 32px;
   color: rgb(57, 60, 65);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 48px;
   opacity: 1;
   min-width: 600px;
@@ -41,12 +41,12 @@
 
 .item__buttons {
   display: flex;
-
   justify-content: space-between;
 }
 
 .lower__thirdpart {
-  margin-top: 65.1%;
+  margin-top: 62.5%;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -2,22 +2,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 256px;
-  height: 40px;
+  min-width: 216px;
   margin: 8px;
   text-transform: uppercase;
   background-color: rgba(23, 26, 32, 0.8);
   cursor: pointer;
   border-radius: 100px;
-  opacity: 0.85;
+  opacity: 0.95;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
 }
 
 .button > a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .button__white {

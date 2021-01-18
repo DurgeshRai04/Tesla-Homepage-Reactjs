@@ -11,6 +11,7 @@
   margin: 14px;
   margin-top: 14px;
   align-items: center;
+  height: 10px;
 }
 
 .header__center {
@@ -24,34 +25,31 @@
 .header__right {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 35px;
   text-transform: uppercase;
 }
 
 .Logo {
   cursor: pointer;
-  width: 100px;
-  block-size: 14px;
+  width: 70px;
+  block-size: 12px;
 }
 
 .header__center > p {
-  margin-left: 14px;
+  margin-left: 21px;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 12px;
   font-weight: 500;
-  opacity: 0.75;
-  letter-spacing: 0.8px;
 }
 
 .header__right > p {
   margin-right: 14px;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 12px;
   font-weight: 500;
-  opacity: 0.75;
-  letter-spacing: 0.8px;
 }
 
 .header__right__menuicon {
-  margin-right: 8px;
+  margin-right: 6px;
 }
