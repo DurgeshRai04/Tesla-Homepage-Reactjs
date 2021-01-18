@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Tesla-Homepage-Reactjs/static/css/main.cb8510b3.chunk.css",
+    "main.js": "/Tesla-Homepage-Reactjs/static/js/main.93858bd3.chunk.js",
+    "main.js.map": "/Tesla-Homepage-Reactjs/static/js/main.93858bd3.chunk.js.map",
+    "runtime-main.js": "/Tesla-Homepage-Reactjs/static/js/runtime-main.98302719.js",
+    "runtime-main.js.map": "/Tesla-Homepage-Reactjs/static/js/runtime-main.98302719.js.map",
+    "static/js/2.d84faa1e.chunk.js": "/Tesla-Homepage-Reactjs/static/js/2.d84faa1e.chunk.js",
+    "static/js/2.d84faa1e.chunk.js.map": "/Tesla-Homepage-Reactjs/static/js/2.d84faa1e.chunk.js.map",
+    "static/js/3.e02b92d8.chunk.js": "/Tesla-Homepage-Reactjs/static/js/3.e02b92d8.chunk.js",
+    "static/js/3.e02b92d8.chunk.js.map": "/Tesla-Homepage-Reactjs/static/js/3.e02b92d8.chunk.js.map",
+    "index.html": "/Tesla-Homepage-Reactjs/index.html",
+    "static/css/main.cb8510b3.chunk.css.map": "/Tesla-Homepage-Reactjs/static/css/main.cb8510b3.chunk.css.map",
+    "static/js/2.d84faa1e.chunk.js.LICENSE.txt": "/Tesla-Homepage-Reactjs/static/js/2.d84faa1e.chunk.js.LICENSE.txt",
+    "static/media/Desktop-Accessories.027ada94.jpg": "/Tesla-Homepage-Reactjs/static/media/Desktop-Accessories.027ada94.jpg",
+    "static/media/Desktop-Model3.30651f79.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-Model3.30651f79.jpeg",
+    "static/media/Desktop-ModelS.e3d22a07.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-ModelS.e3d22a07.jpeg",
+    "static/media/Desktop-ModelX.83417303.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-ModelX.83417303.jpeg",
+    "static/media/Desktop-ModelY.30acb76a.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-ModelY.30acb76a.jpeg",
+    "static/media/Desktop-SolarPanels.d7d441d7.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-SolarPanels.d7d441d7.jpeg",
+    "static/media/Desktop-SolarRoof.9eb2e602.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-SolarRoof.9eb2e602.jpeg",
+    "static/media/index.css": "/Tesla-Homepage-Reactjs/static/media/iCiel-Medium.b23bb62d.ttf",
+    "static/media/teslaLogoSmall.a7b59bc6.svg": "/Tesla-Homepage-Reactjs/static/media/teslaLogoSmall.a7b59bc6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98302719.js",
+    "static/js/2.d84faa1e.chunk.js",
+    "static/css/main.cb8510b3.chunk.css",
+    "static/js/main.93858bd3.chunk.js"
+  ]
+}
