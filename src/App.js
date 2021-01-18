@@ -91,7 +91,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt=""
           rightBtnLink=""
-          twoButton="false"
+          twoButton=""
         />
       </div>
     </div>

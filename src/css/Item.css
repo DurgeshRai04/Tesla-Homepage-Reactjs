@@ -17,17 +17,17 @@
 }
 
 .item__text {
-  margin-top: 20%;
+  margin-top: 15vh;
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
-  font-size: 34px;
+  font-size: 36px;
   color: rgb(57, 60, 65);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 48px;
-  letter-spacing: -0.6px;
   opacity: 1;
-  text-size-adjust: 100%;
+  min-width: 600px;
 }
 
 .item__desc {
@@ -41,8 +41,19 @@
 
 .item__buttons {
   display: flex;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
 
+  justify-content: space-between;
+}
+
+.lower__thirdpart {
+  margin-top: 65.1%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.item__expand {
+  color: white !important;
+  margin-top: 3px;
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }

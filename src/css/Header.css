@@ -5,14 +5,12 @@
   display: flex;
   background-color: transparent;
   background: none;
-  font-size: 14px;
-  font-weight: 400;
-  /* color: rgb(57, 60, 65); */
   width: 100vw;
   position: fixed;
   top: 0;
-  margin: 15px;
-  margin-top: 15px;
+  margin: 14px;
+  margin-top: 14px;
+  align-items: center;
 }
 
 .header__center {
@@ -20,23 +18,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 110px;
+  word-spacing: 1px;
 }
 .header__right {
   display: flex;
   justify-content: flex-end;
   margin-right: 35px;
-  align-items: center;
   text-transform: uppercase;
 }
 
-.header__logo {
+.Logo {
   cursor: pointer;
-  height: 24px;
   width: 100px;
-  margin-top: 7px;
+  block-size: 14px;
 }
 
 .header__center > p {
-  margin-left: 10px;
+  margin-left: 14px;
   text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 0.75;
+  letter-spacing: 0.8px;
+}
+
+.header__right > p {
+  margin-right: 14px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 0.75;
+  letter-spacing: 0.8px;
+}
+
+.header__right__menuicon {
+  margin-right: 8px;
 }

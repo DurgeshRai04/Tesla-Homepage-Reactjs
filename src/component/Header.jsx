@@ -7,7 +7,7 @@ function header() {
     <div className="header">
       {/* Logo */}
       <div className="header__logo">
-        <img src={TeslaLogo} alt="teslalogo" />
+        <img src={TeslaLogo} alt="teslalogo" className="Logo" />
       </div>
       {/* Center Part */}
       <div className="header__center">
@@ -22,7 +22,7 @@ function header() {
       <div className="header__right">
         <p>Shop </p>
         <p>Tesla Account</p>
-        <MenuIcon />
+        <MenuIcon  className="header__right__menuicon"/>
       </div>
     </div>
   );
