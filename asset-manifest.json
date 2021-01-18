@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tesla-Homepage-Reactjs/static/css/main.cb8510b3.chunk.css",
+    "main.css": "/Tesla-Homepage-Reactjs/static/css/main.7957b261.chunk.css",
     "main.js": "/Tesla-Homepage-Reactjs/static/js/main.93858bd3.chunk.js",
     "main.js.map": "/Tesla-Homepage-Reactjs/static/js/main.93858bd3.chunk.js.map",
     "runtime-main.js": "/Tesla-Homepage-Reactjs/static/js/runtime-main.98302719.js",
@@ -10,7 +10,7 @@
     "static/js/3.e02b92d8.chunk.js": "/Tesla-Homepage-Reactjs/static/js/3.e02b92d8.chunk.js",
     "static/js/3.e02b92d8.chunk.js.map": "/Tesla-Homepage-Reactjs/static/js/3.e02b92d8.chunk.js.map",
     "index.html": "/Tesla-Homepage-Reactjs/index.html",
-    "static/css/main.cb8510b3.chunk.css.map": "/Tesla-Homepage-Reactjs/static/css/main.cb8510b3.chunk.css.map",
+    "static/css/main.7957b261.chunk.css.map": "/Tesla-Homepage-Reactjs/static/css/main.7957b261.chunk.css.map",
     "static/js/2.d84faa1e.chunk.js.LICENSE.txt": "/Tesla-Homepage-Reactjs/static/js/2.d84faa1e.chunk.js.LICENSE.txt",
     "static/media/Desktop-Accessories.027ada94.jpg": "/Tesla-Homepage-Reactjs/static/media/Desktop-Accessories.027ada94.jpg",
     "static/media/Desktop-Model3.30651f79.jpeg": "/Tesla-Homepage-Reactjs/static/media/Desktop-Model3.30651f79.jpeg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.98302719.js",
     "static/js/2.d84faa1e.chunk.js",
-    "static/css/main.cb8510b3.chunk.css",
+    "static/css/main.7957b261.chunk.css",
     "static/js/main.93858bd3.chunk.js"
   ]
 }
