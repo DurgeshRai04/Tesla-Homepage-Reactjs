@@ -2,6 +2,7 @@ import React from "react";
 import "../css/Item.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Button from "../component/Button";
+
 function Item({
   title,
   desc,
@@ -32,8 +33,8 @@ function Item({
             )}
           </div>
           {first && (
-            <div className="item__expand">
-              <ExpandMoreIcon fontSize="large" />
+            <div className="item__expand ">
+              <ExpandMoreIcon className="bounce" fontSize="large" />
             </div>
           )}
         </div>

@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.headercenter__closeIcon {
+  visibility: hidden;
+}
 .header {
   display: flex;
   background-color: transparent;
@@ -19,14 +22,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 110px;
+  margin-left: 220px;
   word-spacing: 1px;
 }
 .header__right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 35px;
+  margin-right: 60px;
   text-transform: uppercase;
 }
 
@@ -37,19 +40,91 @@
 }
 
 .header__center > p {
-  margin-left: 21px;
+  margin-left: 14px;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .header__right > p {
-  margin-right: 14px;
+  padding-left: 20px;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.hidden__para {
+  visibility: hidden;
 }
 
 .header__right__menuicon {
-  margin-right: 6px;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  font-size: large !important;
+  color: black !important;
+  margin-top: 1px;
+}
+
+@media (max-width: 1200px) {
+  .header__center,
+  .header__right {
+    visibility: hidden;
+    visibility: hidden;
+  }
+  .headercenter__newIcon {
+    cursor: pointer;
+    visibility: visible;
+    margin-top: 20px;
+    margin-left: 16px;
+    display: block;
+  }
+
+  .header__newcenter {
+    visibility: visible;
+    display: block;
+    flex-direction: column;
+    height: 100vh;
+    width: 212px;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0px;
+    align-items: flex-start;
+    z-index: 2;
+    right: 0;
+    transition: all 0.5s;
+  }
+  .header__center__normalpara {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 10px !important;
+    opacity: 0.8;
+  }
+  .visible__para {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 10px !important;
+  }
+  .visible__para > p {
+    font-size: 12px !important;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  body {
+    z-index: 0.5;
+    opacity: 0.98 !important;
+  }
 }

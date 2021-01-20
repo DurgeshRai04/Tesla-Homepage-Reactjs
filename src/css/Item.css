@@ -17,7 +17,7 @@
 }
 
 .item__text {
-  margin-top: 20%;
+  margin-top: 100px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -26,13 +26,12 @@
   color: rgb(57, 60, 65);
   font-weight: 500;
   line-height: 48px;
-  opacity: 1;
   min-width: 600px;
 }
 
 .item__desc {
-  font-size: 14px;
-  color: rgb(92, 94, 98);
+  font-size: 12px;
+  color: rgba(92, 94, 98, 0.809);
   font-weight: 400px;
   letter-spacing: -0.5px;
   line-height: 19.796px;
@@ -42,6 +41,7 @@
 .item__buttons {
   display: flex;
   justify-content: space-between;
+  z-index: 0;
 }
 
 .lower__thirdpart {
@@ -51,9 +51,37 @@
   align-items: center;
   flex-direction: column;
 }
-.item__expand {
+.bounce {
   color: white !important;
-  margin-top: 3px;
-  font-size: 14px !important;
-  font-weight: 400 !important;
+  margin-top: 1px;
+  font-size: 45px !important;
+  font-weight: small !important;
+}
+
+.bounce {
+  animation: animate 2s linear infinite !important;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-3px);
+  }
+  20% {
+    transform: translateY(3px);
+  }
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+@media (max-width: 1200px) {
+  .item__text {
+    font-size: 30px;
+  }
 }

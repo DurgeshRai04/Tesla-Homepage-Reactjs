@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "iCeilMedium";
-  src: local("iCeilMedium", url("./fonts/iCiel-Medium.ttf") format("truetype"));
+  font-family: "iCeilGothamMedium";
+  src: url("./fonts/iCiel\ Gotham-Medium.ttf");
   font-weight: normal;
 }
 
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: "iCeilMedium", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "iCeilGothamMedium", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,4 +22,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
